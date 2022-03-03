@@ -1,0 +1,13 @@
+body{
+  background-color: #500501;
+  color:grey;
+  border: solid 5px #220200;
+}
+
+.header{
+  color: white
+}
+
+.image {
+  transition: all 3s ease-out;
+}
