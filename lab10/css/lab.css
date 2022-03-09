@@ -1,0 +1,62 @@
+body{
+  background-color: #500501;
+  color: #White;
+}
+
+h2{
+  font-family:"garamond_heading";
+  color: #white;
+  font-size: 120%;
+  text-transform: capitalize;
+}
+
+h1{
+  colo: #white;
+}
+
+.heading, h1{
+  color: #white;
+  font-size: 140%;
+  text-transform: capitalize;
+  font-style: "garamondh_heading";
+}
+
+#challenges{
+  color: #DE1E04;
+}
+
+#problems{
+  color: #980601;
+}
+
+#results{
+  color: #822E28;
+}
+
+#screenshots{
+  color: #B34739;
+}
+
+@font-face {
+  font-family: "garamond_heading";
+  src:url(fonts/headland_one/headlandone-regular.ttf);
+}
+
+@font-face {
+  font-family: "eb_garamond";
+  src:url(fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
+}
+
+#challenges, #problems, #results, #screenshots{
+  word-spacing: 10px;
+}
+
+.content{
+  font-family: "eb_garamond";
+  font-size: 120%;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border: dashed 2px #656565;
+}
