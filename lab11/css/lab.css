@@ -48,6 +48,14 @@ div#content{
   flex-direction: column;
   text-align: left;
   border: dashed 2px #656565;
+
+nav{
+      position: sticky;
+      top: 0;
+      background-color: Black;
+      border: dotted 5px white;
+      color: white;
+
 }
 div#sidebar {
 margin-top: 5px;
