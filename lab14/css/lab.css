@@ -1,29 +1,40 @@
+@font-face {
+  font-family: "garamond_heading";
+  src:url(fonts/headland_one/headlandone-regular.ttf);
+}
+
+@font-face {
+  font-family: "eb_garamond";
+  src:url(fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
+}
+
 body{
   background-color: #500501;
-  color: #White;
+  color: white;
 }
 
 div.images{
-  max-width: 150px;
+  width: 200px;
   height: auto;
   background-color:;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h2{
-  font-family:"garamond_heading";
-  color: #white;
+  font-family:"garamond_heading", "Times New Roman", Times;
+  color: white;
   font-size: 120%;
   text-transform: capitalize;
 }
 h1{
-  colo: #white;
+  colo: white;
 }
 .heading, h1{
-  color: #white;
+  color: white;
   font-size: 140%;
   text-transform: capitalize;
-  font-style: "garamondh_heading";
-}
+  font-style: "Lucida Handwriting", Papyrus, "Times New Roman", Times;
 
 div#challenges{
   color: #DE1E04;
@@ -39,16 +50,6 @@ div#results{
 
 div#screenshots{
   color: #B34739;
-}
-
-@font-face {
-  font-family: "garamond_heading";
-  src:url(fonts/headland_one/headlandone-regular.ttf);
-}
-
-@font-face {
-  font-family: "eb_garamond";
-  src:url(fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
 }
 
 div#challenges, #problems, #results, #screenshots{
@@ -80,7 +81,7 @@ div#floated{
   float: right;
 }
 
-div#floated *{
+div#floated{
   float: right;
   clear: right;
 }
