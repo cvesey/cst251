@@ -35,6 +35,7 @@ h1{
   font-size: 140%;
   text-transform: capitalize;
   font-style: "Lucida Handwriting", Papyrus, "Times New Roman", Times;
+}
 
 div#challenges{
   color: #DE1E04;
@@ -79,10 +80,6 @@ border: ridge 5px #001219;
 
 div#floated{
   float: right;
-}
-
-div#floated{
-  float: right;
   clear: right;
 }
 
@@ -97,13 +94,14 @@ border: 1px solid black;
 
 div#center-img {
    height: 200px;
-   sition: relative;
+   border: 1px solid black;
+   margin: auto;
 }
 
 div#center-both p {
    margin: 0;
-   position: absolute;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -50%);
+   /* transform: translate(-50%, -50%); */
+   border: 1px solid black;
 }
