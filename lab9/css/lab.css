@@ -1,22 +1,21 @@
-body{
+body {
   background-color: #505941;
-  color:white;
+  color: white;
   font-size: 100%;
   text-align: center;
 }
 
-h2{
+h2 {
   padding-top: 15px;
   font-family: inherit;
   font-size: 120%;
 }
 
-img{
-  width 400px
-  height: auto;
+img {
+  width 400px height: auto;
 }
 
-#title{
+#title {
   padding-top: 15px;
   font-family: inherit;
   font-size: 120%;
@@ -25,43 +24,41 @@ img{
 #subject {
   font-style: italic;
 
-#image{
-  float: right;
-  padding: 10px 30px 30px;
-  width: auto;
-  height: auto;
-  font-size: 120%;
-  background-color:#A0816B;
-}
+  #image {
+    float: right;
+    padding: 10px 30px 30px;
+    width: auto;
+    height: auto;
+    font-size: 120%;
+    background-color: #A0816B;
+  }
 
-#challenges, #problems{
-  background-color:#CB6D60;
-  width: 50%;
-  height: 100%;
-  font-size: 120%;
-}
+  #challenges, #problems {
+    background-color: #CB6D60;
+    width: 50%;
+    height: 100%;
+    font-size: 120%;
+  }
 
-#content{
-  width: 50%;
-  height: 100%;
-  font-size: 120%;
-?  border: solid 1px black;
-}
+  #content {
+    width: 50%;
+    height: 100%;
+    font-size: 120%;
+    ? border: solid 1px black;
+  }
 
-#results{
-  float: left;
-  background-color:#FCEEED;
-  width: 50%;
-  height: 100%;
-  font-size: 120%
-}
+  #results {
+    float: left;
+    background-color: #FCEEED;
+    width: 50%;
+    height: 100%;
+    font-size: 120%
+  }
 
-.written{
-  font-size: 110;
-}
+  .written {
+    font-size: 110;
+  }
 
-
-
-#screenshots{
-  font-style: italic;
-}
+  #screenshots {
+    font-style: italic;
+  }

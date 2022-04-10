@@ -1,63 +1,65 @@
 @font-face {
   font-family: "garamond_heading";
-  src:url(fonts/headland_one/headlandone-regular.ttf);
+  src: url(fonts/headland_one/headlandone-regular.ttf);
 }
 
 @font-face {
   font-family: "eb_garamond";
-  src:url(fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
+  src: url(fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
 }
 
-body{
+body {
   background-color: #500501;
   color: white;
 }
 
-div.images{
+div.images {
   width: 200px;
   height: auto;
-  background-color:;
+  background-color: ;
   display: flex;
   flex-wrap: wrap;
 }
 
-h2{
-  font-family:"garamond_heading", "Times New Roman", Times;
+h2 {
+  font-family: "garamond_heading", "Times New Roman", Times;
   color: white;
   font-size: 120%;
   text-transform: capitalize;
 }
-h1{
+
+h1 {
   colo: white;
 }
-.heading, h1{
+
+.heading, h1 {
   color: white;
   font-size: 140%;
   text-transform: capitalize;
   font-style: "Lucida Handwriting", Papyrus, "Times New Roman", Times;
 }
 
-div#challenges{
+div#challenges {
   color: #DE1E04;
 }
 
-div#problems{
+div#problems {
   color: #980601;
 }
 
-div#results{
+div#results {
   color: #822E28;
 }
 
-div#screenshots{
+div#screenshots {
   color: #B34739;
 }
 
-div#challenges, #problems, #results, #screenshots{
+div#challenges, #problems, #results, #screenshots {
   word-spacing: 10px;
 }
 
-div#content{
+div#content {
   font-family: "eb_garamond";
   font-size: 120%;
   padding: 70px;
@@ -68,17 +70,17 @@ div#content{
 }
 
 div#sidebar {
-margin-top: 5px;
-display: inline-block;
-min-width: 300px;
-width: 30%;
-right: 15px;
-float: right;
-border-color: #94d2bd;
-border: ridge 5px #001219;
+  margin-top: 5px;
+  display: inline-block;
+  min-width: 300px;
+  width: 30%;
+  right: 15px;
+  float: right;
+  border-color: #94d2bd;
+  border: ridge 5px #001219;
 }
 
-div#floated{
+div#floated {
   float: right;
   clear: right;
 }
@@ -88,20 +90,20 @@ div#center-horz {
 }
 
 div#center-horz {
-text-align: center;
-border: 1px solid black;
+  text-align: center;
+  border: 1px solid black;
 }
 
 div#center-img {
-   height: 200px;
-   border: 1px solid black;
-   margin: auto;
+  height: 200px;
+  border: 1px solid black;
+  margin: auto;
 }
 
 div#center-both p {
-   margin: 0;
-   top: 50%;
-   left: 50%;
-   /* transform: translate(-50%, -50%); */
-   border: 1px solid black;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  border: 1px solid black;
 }

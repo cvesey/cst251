@@ -1,46 +1,57 @@
-body{
+body {
   background-color: #500501;
   color: White;
 }
-h2{
-  font-family:"garamond_heading";
+
+h2 {
+  font-family: "garamond_heading";
   color: #white;
   font-size: 120%;
   text-transform: capitalize;
 }
-h1{
+
+h1 {
   colo: #white;
 }
-.heading, h1{
+
+.heading, h1 {
   color: #white;
   font-size: 140%;
   text-transform: capitalize;
   font-style: "garamondh_heading";
 }
-div#challenges{
+
+div#challenges {
   color: #DE1E04;
 }
-div#problems{
+
+div#problems {
   color: #980601;
 }
-div#results{
+
+div#results {
   color: #822E28;
 }
-div#screenshots{
+
+div#screenshots {
   color: #B34739;
 }
+
 @font-face {
   font-family: "garamond_heading";
-  src:url(fonts/headland_one/headlandone-regular.ttf);
+  src: url(fonts/headland_one/headlandone-regular.ttf);
 }
+
 @font-face {
   font-family: "eb_garamond";
-  src:url(fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
+  src: url(fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
 }
-div#challenges, #problems, #results, #screenshots{
+
+div#challenges, #problems, #results, #screenshots {
   word-spacing: 10px;
 }
-div#content{
+
+div#content {
   font-family: "eb_garamond";
   font-size: 120%;
   padding: 70px;
@@ -49,21 +60,21 @@ div#content{
   text-align: left;
   border: dashed 2px #656565;
 
-nav{
-      position: sticky;
-      top: 0;
-      background-color: Black;
-      border: dotted 5px white;
-      color: white;
+  nav {
+    position: sticky;
+    top: 0;
+    background-color: Black;
+    border: dotted 5px white;
+    color: white;
+  }
 
-}
-div#sidebar {
-margin-top: 5px;
-display: inline-block;
-min-width: 300px;
-width: 30%;
-right: 15px;
-float: right;
-border-color: #94d2bd;
-border: ridge 5px #001219;
-}
+  div#sidebar {
+    margin-top: 5px;
+    display: inline-block;
+    min-width: 300px;
+    width: 30%;
+    right: 15px;
+    float: right;
+    border-color: #94d2bd;
+    border: ridge 5px #001219;
+  }
