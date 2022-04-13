@@ -24,6 +24,7 @@ section {
 
 .challenge {
   flex-wrap: wrap;
+
 }
 
 .problem {
@@ -38,7 +39,7 @@ footer {
   border: 3px ridge #f1faee;
 }
 
-div {
-  max-width: 40%;
+div img{
+  max-width: 30%;
   height: auto;
 }
