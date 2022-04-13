@@ -1,0 +1,48 @@
+body{
+  background-color: #A18276;
+}
+
+ a{
+text-color: #FBACBE;
+}
+
+main{
+  background-color: #CCFCCB;
+  border: 3px solid #065143;
+  text-align: center;
+}
+
+header{
+  border: 3px solid #065143;
+  background-color: #129490;
+  text-align: center;
+}
+
+footer{
+  border: 3px solid #065143;
+}
+
+nav{
+  border: 3px solid #065143;
+}
+
+aside{
+  border: 3px solid #065143;
+  display: inline-block;
+  float: left;
+  background-color: #129490;
+  max-width: 360px;
+  margin: 6px;
+}
+}
+
+#thumbnails img{
+  max-width: 350px;
+  height: auto;
+  min-width: 50px;
+}
+
+img{
+  width: 350px;
+  height: auto;
+}

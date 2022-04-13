@@ -1,0 +1,44 @@
+body {
+  background-color: #8491A3;
+  margin: 8px;
+  padding: 8px;
+}
+
+header {
+  border: 3px ridge #f1faee;
+}
+
+nav {
+  border: 3px ridge #f1faee;
+}
+
+main {
+  border: 3px ridge #f1faee;
+}
+
+section {
+  border: 3px ridge #f1faee;
+  max-width: 350px;
+  float: left;
+}
+
+.challenge {
+  flex-wrap: wrap;
+}
+
+.problem {
+  flex-wrap: wrap;
+}
+
+.results {
+  flex-wrap: wrap;
+}
+
+footer {
+  border: 3px ridge #f1faee;
+}
+
+div {
+  max-width: 40%;
+  height: auto;
+}
