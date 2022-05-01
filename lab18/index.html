@@ -1,44 +1,113 @@
-<html><head>
-	<title>Lab 18: Forgery Made Fun</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
+<html>
+
+<head>
+  <title>Lab 18: Responsive Design</title>
+  <link rel="stylesheet" type="text/css" href="css/lab.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body cz-shortcut-listen="true">
 
-	<main id="main" class="flex-container">
+<header>
+  <h1>Lab 18: Flexbox</h1>
+  <nav class="navbar">
+    <a href="../index.html">CST251 Homepage</a>
+    <a href="css/lab.css" target="_blank">See the CSS for this page</a>
 
-		<nav class="navbar">
-			<ul>
-				<li><a href="../index.html">CST251 Homepage</a></li>
-				<li><a href="css/lab.css" target="_blank">See the CSS for this page</a></li>
-			</ul>
-		</nav>
+  </nav>
+</header>
 
-		<section class="content">
-			<h1>Lab 18: Flexbox</h1>
-			<div id="challenge">
-				<h2>Challenge</h2>
-				<p>The big idea of this particular lab was ... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			<div id="problems">
-				<h2>Problems</h2>
-				<p>Problems we encountered while we were doing the lab included ... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			<div id="results">
-				<h2>Results</h2>
-				<p>To solve this design challenge, here's what we did... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-		</section>
+<body>
 
-		<aside class="sidebar">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</aside>
-
-	</main>
+  <main id="main" class="flex-container">
 
 
+    <div class="images">
+      <figure>
+        <a href="https://www.instagram.com/p/CNil2iip9fV/" target="_new">
+          <img src="img/cgv08903.jpg" alt="pink and light blue light hiting
+      			 round rocks at sunset on the beach" />
+          <figcaption>
+            <p>Bowling Ball Beach, California</p>
+            <p>March
+              2021</p>
+          </figcaption>
+        </a>
+      </figure>
 
-</body></html>
+      <figure>
+        <a href="https://www.instagram.com/p/B22PdB2FgQK/" target="_new">
+          <img src="img/img_6491.jpg" alt="Black and white photo of round rocks
+      			  partially covered by the ocean" />
+          <figcaption>
+            <p>Bowling Ball Beach, California</p>
+            <p>March
+              2021</p>
+          </figcaption>
+        </a>
+      </figure>
+    </div>
+
+    <section class="content">
+      <div id="challenge">
+        <h2>Challenge</h2>
+        <ul>
+          <li><p>The images weren't aligning side-by-side so we added "display: flex;"
+          to the CSS and that worked.</p>
+          </li>
+          <li><p>We added CSS to change the links so that they weren't underlined and hade black text.
+              The code only responded when the screen width was below 600px, and
+              goes back to the default when above 600px. This was because we put the media query above that tag.
+              By putting the media query tag at the bottwem and adding ""!important"
+              it didn't affect the other tags.</p></li>
+        </ul>
+        <!-- <p>We were able to get the aside to work properly but only when we wrote
+          them into the inspector. When we tested locally the two lines of code
+          that worked with aside and .sidebar would not show up in the inspector.
+        </p> -->
+      </div>
+      <div id="problems">
+        <h2>Problems</h2>
+        <ul>
+          <li>
+            <p>We wanted the nav bar to be all the way to the right and then get
+              get closer and ajust as the widow decreased in size. We found this some
+              code on w3schools (i.e., <a href="#">https://www.w3schools.com/howto/howto_css_topnav_right.asp</a>)
+              but weren't able to adapt it to our code.</p>
+          </li>
+          <li>
+            <p>Shrinking the width of the screen to 600px didn't change the image layout.
+            The navbar and header changed just not the images.</p>
+          </li>
+          <li></li>
+        </ul>
+        <!-- <p>The aside only worked or showed up when we typed in the CSS directly
+          into the inspector mode.</p> -->
+      </div>
+      <div id="results">
+        <h2>Results</h2>
+        <p>The results are as you see above. We weren't able to fix the issue
+          with the navbar on images responsivness.</p>
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </aside>
+
+  </main>
+
+
+
+</body>
+
+</html>
+<footer>
+  jweinert@csumb.edu <br>
+  cvesey@csumb.edu
+</footer>
+</body>
+
+</html>
 
 <!-- <!DOCTYPE html>
 <html>
@@ -70,10 +139,3 @@
   <div id="images">
     <img src="/img/lizard-art.jpg" alt="lizard-art">
   </div> -->
-  <footer>
-    jweinert@csumb.edu <br>
-    cvesey@csumb.edu
-  </footer>
-</body>
-
-</html>
