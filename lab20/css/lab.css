@@ -9,24 +9,13 @@ header{
   display: flex;
   justify-content: center;
   font-family: sans-serif;
-  /* z-index: 0; */
 }
-
 
 img{
 height: auto;
-width:50%;
+width:30%;
 }
 
-/* .navbar{
-  display: flex;
-  flex-direction: column;
-  left: 15px;
-  top: 40px;
-  z-index: 10;
-  color: #fff;
-  text-align: left;
-} */
 .navbar a{
   text-decoration: none;
   color: #fff;
@@ -43,12 +32,16 @@ width:50%;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    text-align: center;
 }
 
 .content{
   border: black solid 3px;
 }
 
+#challenges_and_problems{
+  text-align: left;
+}
 
 .navbar a {
   float: left;
